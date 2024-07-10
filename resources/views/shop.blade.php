@@ -8,6 +8,7 @@
                         <div class="my-3 p-3">
                             <h2 class="display-5">{{ $cate->name }}</h2>
                             <a class="btn btn-outline-secondary" href="{{ route('product.id', $cate->Id) }}">{{ $cate->name }}</a>
+                            
                         </div>
                     </div>
                 </div>

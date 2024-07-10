@@ -11,6 +11,8 @@
                                 <h5 class="card-title">{{ $product->name }}</h5>
                                 <p class="card-text">{{ $product->description }}</p>
                                 <p class="card-text">Price: {{ $product->price }}</p>
+                                <a class="btn btn-success" href="#">Update</a>
+                                <a class="btn btn-danger" href="#">Update</a>
                             </div>
                         </div>
                     </div>

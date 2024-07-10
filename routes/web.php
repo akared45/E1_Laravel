@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ProductController;
@@ -23,6 +24,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/shop',[ShopController::class,'category']);
 Route::get('shop/{id}', [ProductController::class, 'show'])->name('product.id');
+Route::get('/admin',[AdminController::class,'index']);
 
 
 
